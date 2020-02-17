@@ -1,0 +1,7 @@
+console.log('npm jquery installation');
+
+$(document).ready(function(){
+	$('h1').click(function(){
+		$(this).hide();
+	});
+});
